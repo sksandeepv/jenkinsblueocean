@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            echo 'Sandy Build stage'
+            echo 'Sandy Build stage for multi'
           }
         }
 
