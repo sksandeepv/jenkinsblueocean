@@ -6,6 +6,7 @@ pipeline {
         stage('Build') {
           steps {
             echo 'Sandy Build stage for multi'
+            echo 'SANDEEP TESTING'
           }
         }
 
